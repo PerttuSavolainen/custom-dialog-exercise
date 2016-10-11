@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements TextEntryDialogFragment.TextEntryDialogListener {
 
-    private static final String TEXTVIEW_STATEKEY = "TEXTVIEW_STATEKEY";
+    private final String TEXTVIEW_STATEKEY = "TEXTVIEW_STATEKEY";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
